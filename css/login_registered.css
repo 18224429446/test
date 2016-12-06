@@ -1,0 +1,75 @@
+@charset "utf-8";
+html,
+body {
+  font-family: 微软雅黑;
+}
+#header {
+  border-radius: 0;
+  background: #000;
+}
+#header .container a {
+  color: #fff;
+}
+#header .navbar-header a {
+  font-size: 24px;
+  margin-top: -6px;
+  display: block;
+}
+#header ul li a:hover {
+  color: #2aabd2;
+}
+#short-nav {
+  margin-bottom: 10px;
+}
+#short-nav .container .navbar-header {
+  height: 80px;
+  padding-top: 10px;
+  line-height: 65px;
+}
+#short-nav .container .navbar-header span {
+  color: #337ab7;
+  font-size: 22px;
+  font-weight: bold;
+}
+#main .panel-heading p {
+  font-size: 18px;
+  color: #999;
+}
+#main p {
+  color: #999;
+  text-align: center;
+  margin: 10px 0px 24px;
+}
+#main form {
+  width: 40%;
+  margin: 40px auto;
+  color: #737373;
+}
+#main form .form-group span {
+  text-align: left;
+  margin-top: 8px;
+  padding: 0;
+  color: #737373;
+}
+#main form .mybtn {
+  margin-top: 30px;
+}
+#main form .mybtn button {
+  width: 120px;
+}
+#main form .mybtn a {
+  line-height: 34px;
+  padding-left: 40px;
+}
+#footer {
+  background: #f8f8f8;
+}
+#footer .container {
+  padding: 30px 0 60px 0 ;
+}
+#footer .container .col-sm-8 a {
+  padding-right: 20px;
+}
+#footer .container .col-sm-2 img {
+  max-width: 100%;
+}

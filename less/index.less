@@ -1,0 +1,479 @@
+@charset "utf-8";
+html,body{
+  font-family: 微软雅黑;
+  ul{
+    list-style: none;
+  }
+}
+.resize{
+  resize: none;
+}
+.button-left{
+  margin-left: 16px;
+}
+//index.html
+#header{
+    border-radius: 0;
+    background: #333;
+    margin-bottom: 0;
+    .container a{
+        color: #fff;
+    }
+    .navbar-header a {
+        font-size: 20px;
+        margin-top: -2px;
+        display: block;
+    }
+    #Tomy_ul{
+        .header-active{
+          color: #00a7ff;
+          font-weight: bold;
+        }
+        a:hover {
+          color: #00a7ff;
+        }
+    }
+
+}
+#nav{
+    margin-bottom: 10px;
+    .container{
+        .navbar-header{
+            height: 60px;
+            padding-top: 10px;
+            a{
+                line-height: 50px;
+                font-size: 36px;
+            }
+        }
+        li a{
+            line-height: 50px;
+            font-size: 16px;
+        }
+        li a:hover{
+            background: #eef7f2;
+            color: #2aabd2;
+        }
+    }
+}
+#three_project{
+    margin-top: 20px;
+    .row{
+        margin-left: 0px;
+        div{
+            height: 80px;
+            float: left;
+            padding-left: 76px;
+            font-size: 18px;
+            color: #333;
+            dt{
+                line-height: 28px;
+            }
+            dd{
+                font-size: 14px;
+                color: #999;
+            }
+        }
+        .el-feature-item01{
+            background: url("../image/feature01.png") no-repeat;
+        }
+        .el-feature-item02{
+            background: url("../image/feature02.png") no-repeat;
+        }
+        .el-feature-item03{
+            background: url("../image/feature03.png") no-repeat;
+        }
+    }
+}
+#list{
+    .panel{
+        .panel-title{
+            font-size: 24px;
+            color: #2e8ece;
+            overflow: hidden;
+            border-bottom: 1px solid #e8e8e8;
+            margin: 10px 0px 16px;
+            span{
+                border-bottom: solid 3px #2e8ece;
+                font-weight: bold;
+            }
+
+        }
+        .table{
+            th{
+                font-size: 16px;
+                color: #333;
+            }
+            td{
+                line-height: 2.5;
+                color: #999;
+            }
+        }
+    }
+    .row{
+        .panel{
+            border: 0;
+        }
+        ul{
+            padding: 0;
+            li{
+                list-style: none;
+                font-size: 14px;
+                line-height: 38px;
+                border-bottom: 1px dotted #eee;
+                a{
+                    color: #555;
+                }
+                a:hover{
+                    color: #337ab7;
+                }
+            }
+        }
+    }
+}
+#footer{
+    background: #f8f8f8;
+    .container{
+        padding: 30px 0 60px 0 ;
+        .col-sm-8{
+            a{
+                padding-right: 20px;
+            }
+        }
+        .col-sm-2{
+            img{
+                max-width: 100%;
+            }
+        }
+
+    }
+}
+
+//investment.html
+#investment{
+  .mybtn{
+    margin: 20px 0;
+  }
+  table{
+    margin-bottom: 70px;
+    th{
+      font-size: 18px;
+      color: #999;
+    }
+  }
+}
+
+//borroing.html
+#borroing{
+  .borroing-item{
+    margin: 20px 0;
+    .borroin-item-title-1{
+      background: #40d47e;
+    }
+    .borroin-item-title-2{
+      background: #ec7e20;
+    }
+    .borroin-item-title-3{
+      background: #2ca2ee;
+    }
+    .borroin-item-title{
+      color: #fff;
+      font-size: 24px;
+      padding-left: 20px;
+      line-height:48px;
+    }
+    .borroing-item-content{
+      background: #f9f9f9;
+      padding: 16px;
+      .money{
+        font-size: 16px;
+      }
+      ul{
+        padding-left: 14px;
+        color: #555;
+        margin-bottom: 10px;
+        li{
+          padding-left: 20px;
+          margin-top: 5px;
+          background: url("../image/sequare.png")left center no-repeat;
+        }
+      }
+      .borroing-item-apply{
+        display: block;
+        border-radius: 20px;
+        background: #00a8ff;
+        color: #fff;
+        width: 80px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0 auto;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+//个人中心左边的公共列表
+#menu{
+  .list-group-item{
+    padding: 0px;
+    a{
+      text-decoration: none;
+      color: #337ab7;
+    }
+    .menu-title{
+      outline: none;
+      display: block;
+      padding: 10px 15px;
+      background: #F5F5F5;
+      border-bottom: solid 1px #ddd;
+    }
+    .active{
+      background: #337ab7;
+      color: #fff;
+      border-radius: 0 0 3px 3px;
+    }
+    .menu-title-border{
+      border-bottom: 0;
+    }
+    ul {
+      padding-left: 0;
+      li{
+        height: 40px;
+        line-height: 40px;
+        a{
+          padding-left: 40px;
+        }
+        a:hover{
+          color: #2b669a;
+          text-decoration: underline;
+        }
+      }
+      .active{
+        background: #337ab7;
+        a{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+//personal_center.html
+#personal_center{
+  .el-account{
+    padding: 10px;
+    .el-account-head{
+      padding-bottom: 16px;
+      border-bottom: solid 1px #ddd;
+      .el-head-img{
+        border: 1px solid #ddd;
+        padding: 10px;
+        img{
+          height: 72px;
+          width: 72px;
+        }
+      }
+      .el-head{
+        margin-top: 5px;
+        margin-left: 15px;
+      }
+    }
+
+
+  }
+  .h4{
+    margin: 10px 2px;
+  }
+  .zhanghu_btn{
+    width: 400px;
+    text-align: center;
+    margin: 34px auto;
+  }
+  .about_zhanghu{
+    border-bottom: solid 1px #ddd;
+    .zhanghu_content{
+      padding: 0 0 30px 10px;
+      .zhanghu_text{
+        padding-left: 10px;
+        h5{
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+//borrowing_info.html
+#borroing_info{
+  .borrow-people01{
+    .panel-body{
+      .borrow-img{
+        text-align: center;
+        margin-bottom: 30px;
+        img{
+          width: 100px;
+          height: 100px;
+          vertical-align: middle;
+        }
+      }
+      p{
+        margin-bottom: 2px;
+      }
+    }
+  }
+  .borrow-people02 ul{
+    margin-top: -20px;
+    padding-left: 10px;
+    li{
+      font-size: 16px;
+      color: #999;
+      line-height:34px;
+      span{
+        padding-left: 30px;
+        color: #09d;
+      }
+      h3{
+        color: #09d;
+        label{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .borrow-people03 ul{
+    padding-left: 0px;
+    li{
+      font-size: 16px;
+      color: #999;
+      line-height:34px;
+      span{
+        padding-left: 30px;
+        color: #09d;
+      }
+      a{
+        font-size: 20px;
+        color: #09d;
+      }
+    }
+  }
+  .panel{
+    font-size: 16px;
+    .panel-body{
+      td{
+        line-height: 30px;
+      }
+      .info{
+        color: #09d;
+        padding-left: 10px;
+        padding-right: 100px;
+      }
+    }
+    .table{
+      padding: 10px;
+    }
+  }
+}
+
+//borrowing_apply.html
+#borrowing-apply{
+  form{
+    position: relative;
+    .borrowing-form-right{
+      position: absolute;
+      top: 10px;
+      right: 100px;
+      width: 300px;
+      border: solid 1px #ddd;
+      box-shadow: 1px 1px 20px #ddd;
+      padding: 20px 30px;
+      border-radius: 3px;
+    }
+  }
+}
+
+//borrowing_apply.html----rechart.html(蓝色条框)
+#borrowing-recharge-title{
+  background: #F4F8FA;
+  border-left: solid 4px #09d;
+  padding: 20px;
+  h3{
+    color: #09d;
+  }
+  span:nth-child(2){
+    padding-right: 30px;
+  }
+}
+
+//real_name.html----userinfo.html
+#userinfo,#real-name{
+  .info-right{
+    .Idcard{
+      .Idcarditem{
+        width: 160px;
+        height: 150px;
+        border: solid 1px #ddd;
+        margin-right: 10px;
+        .btn-primary{
+          margin: 5px;
+        }
+        .Idcardimg{
+          width: 120px;
+          height: 100px;
+          border: solid 1px #ddd;
+          margin: 0 auto;
+        }
+      }
+      .Idcard-text{
+        border: 0;
+        text-align: center;
+        a{
+          display: block;
+          padding-top: 60px;
+        }
+      }
+    }
+  }
+}
+
+//recharge.html
+#recharge{
+  .recharge-content{
+    margin: 20px 0;
+    .recharge-border{
+      border: solid 1px #ddd;
+      border-top: 0;
+      .table{
+        font-size: 16px;
+        td{
+          line-height: 30px;
+          .bank{
+            display: block;
+            width: 150px;
+            height: 30px;
+          }
+          .bank01{
+            background: url("../image/bank_list.png")-4px 2px no-repeat;
+          }
+          .bank02{
+            background: url("../image/bank_list.png")-4px -34px no-repeat;
+          }
+          .bank03{
+            background: url("../image/bank_list.png")-4px -70px no-repeat;
+          }
+        }
+      }
+      .trade{
+        dd{
+          margin-bottom: 15px;
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+//Withdraw_apply.html
+
+

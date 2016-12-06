@@ -1,0 +1,414 @@
+@charset "utf-8";
+html,
+body {
+  font-family: 微软雅黑;
+}
+html ul,
+body ul {
+  list-style: none;
+}
+.resize {
+  resize: none;
+}
+.button-left {
+  margin-left: 16px;
+}
+#header {
+  border-radius: 0;
+  background: #333;
+  margin-bottom: 0;
+}
+#header .container a {
+  color: #fff;
+}
+#header .navbar-header a {
+  font-size: 20px;
+  margin-top: -2px;
+  display: block;
+}
+#header #Tomy_ul .header-active {
+  color: #00a7ff;
+  font-weight: bold;
+}
+#header #Tomy_ul a:hover {
+  color: #00a7ff;
+}
+#nav {
+  margin-bottom: 10px;
+}
+#nav .container .navbar-header {
+  height: 60px;
+  padding-top: 10px;
+}
+#nav .container .navbar-header a {
+  line-height: 50px;
+  font-size: 36px;
+}
+#nav .container li a {
+  line-height: 50px;
+  font-size: 16px;
+}
+#nav .container li a:hover {
+  background: #eef7f2;
+  color: #2aabd2;
+}
+#three_project {
+  margin-top: 20px;
+}
+#three_project .row {
+  margin-left: 0px;
+}
+#three_project .row div {
+  height: 80px;
+  float: left;
+  padding-left: 76px;
+  font-size: 18px;
+  color: #333;
+}
+#three_project .row div dt {
+  line-height: 28px;
+}
+#three_project .row div dd {
+  font-size: 14px;
+  color: #999;
+}
+#three_project .row .el-feature-item01 {
+  background: url("../image/feature01.png") no-repeat;
+}
+#three_project .row .el-feature-item02 {
+  background: url("../image/feature02.png") no-repeat;
+}
+#three_project .row .el-feature-item03 {
+  background: url("../image/feature03.png") no-repeat;
+}
+#list .panel .panel-title {
+  font-size: 24px;
+  color: #2e8ece;
+  overflow: hidden;
+  border-bottom: 1px solid #e8e8e8;
+  margin: 10px 0px 16px;
+}
+#list .panel .panel-title span {
+  border-bottom: solid 3px #2e8ece;
+  font-weight: bold;
+}
+#list .panel .table th {
+  font-size: 16px;
+  color: #333;
+}
+#list .panel .table td {
+  line-height: 2.5;
+  color: #999;
+}
+#list .row .panel {
+  border: 0;
+}
+#list .row ul {
+  padding: 0;
+}
+#list .row ul li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 38px;
+  border-bottom: 1px dotted #eee;
+}
+#list .row ul li a {
+  color: #555;
+}
+#list .row ul li a:hover {
+  color: #337ab7;
+}
+#footer {
+  background: #f8f8f8;
+}
+#footer .container {
+  padding: 30px 0 60px 0 ;
+}
+#footer .container .col-sm-8 a {
+  padding-right: 20px;
+}
+#footer .container .col-sm-2 img {
+  max-width: 100%;
+}
+#investment .mybtn {
+  margin: 20px 0;
+}
+#investment table {
+  margin-bottom: 70px;
+}
+#investment table th {
+  font-size: 18px;
+  color: #999;
+}
+#borroing .borroing-item {
+  margin: 20px 0;
+}
+#borroing .borroing-item .borroin-item-title-1 {
+  background: #40d47e;
+}
+#borroing .borroing-item .borroin-item-title-2 {
+  background: #ec7e20;
+}
+#borroing .borroing-item .borroin-item-title-3 {
+  background: #2ca2ee;
+}
+#borroing .borroing-item .borroin-item-title {
+  color: #fff;
+  font-size: 24px;
+  padding-left: 20px;
+  line-height: 48px;
+}
+#borroing .borroing-item .borroing-item-content {
+  background: #f9f9f9;
+  padding: 16px;
+}
+#borroing .borroing-item .borroing-item-content .money {
+  font-size: 16px;
+}
+#borroing .borroing-item .borroing-item-content ul {
+  padding-left: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+#borroing .borroing-item .borroing-item-content ul li {
+  padding-left: 20px;
+  margin-top: 5px;
+  background: url("../image/sequare.png") left center no-repeat;
+}
+#borroing .borroing-item .borroing-item-content .borroing-item-apply {
+  display: block;
+  border-radius: 20px;
+  background: #00a8ff;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+#menu .list-group-item {
+  padding: 0px;
+}
+#menu .list-group-item a {
+  text-decoration: none;
+  color: #337ab7;
+}
+#menu .list-group-item .menu-title {
+  outline: none;
+  display: block;
+  padding: 10px 15px;
+  background: #F5F5F5;
+  border-bottom: solid 1px #ddd;
+}
+#menu .list-group-item .active {
+  background: #337ab7;
+  color: #fff;
+  border-radius: 0 0 3px 3px;
+}
+#menu .list-group-item .menu-title-border {
+  border-bottom: 0;
+}
+#menu .list-group-item ul {
+  padding-left: 0;
+}
+#menu .list-group-item ul li {
+  height: 40px;
+  line-height: 40px;
+}
+#menu .list-group-item ul li a {
+  padding-left: 40px;
+}
+#menu .list-group-item ul li a:hover {
+  color: #2b669a;
+  text-decoration: underline;
+}
+#menu .list-group-item ul .active {
+  background: #337ab7;
+}
+#menu .list-group-item ul .active a {
+  color: #fff;
+}
+#personal_center .el-account {
+  padding: 10px;
+}
+#personal_center .el-account .el-account-head {
+  padding-bottom: 16px;
+  border-bottom: solid 1px #ddd;
+}
+#personal_center .el-account .el-account-head .el-head-img {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+#personal_center .el-account .el-account-head .el-head-img img {
+  height: 72px;
+  width: 72px;
+}
+#personal_center .el-account .el-account-head .el-head {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+#personal_center .h4 {
+  margin: 10px 2px;
+}
+#personal_center .zhanghu_btn {
+  width: 400px;
+  text-align: center;
+  margin: 34px auto;
+}
+#personal_center .about_zhanghu {
+  border-bottom: solid 1px #ddd;
+}
+#personal_center .about_zhanghu .zhanghu_content {
+  padding: 0 0 30px 10px;
+}
+#personal_center .about_zhanghu .zhanghu_content .zhanghu_text {
+  padding-left: 10px;
+}
+#personal_center .about_zhanghu .zhanghu_content .zhanghu_text h5 {
+  margin-top: 0;
+}
+#borroing_info .borrow-people01 .panel-body .borrow-img {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#borroing_info .borrow-people01 .panel-body .borrow-img img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+#borroing_info .borrow-people01 .panel-body p {
+  margin-bottom: 2px;
+}
+#borroing_info .borrow-people02 ul {
+  margin-top: -20px;
+  padding-left: 10px;
+}
+#borroing_info .borrow-people02 ul li {
+  font-size: 16px;
+  color: #999;
+  line-height: 34px;
+}
+#borroing_info .borrow-people02 ul li span {
+  padding-left: 30px;
+  color: #09d;
+}
+#borroing_info .borrow-people02 ul li h3 {
+  color: #09d;
+}
+#borroing_info .borrow-people02 ul li h3 label {
+  margin-left: 10px;
+}
+#borroing_info .borrow-people03 ul {
+  padding-left: 0px;
+}
+#borroing_info .borrow-people03 ul li {
+  font-size: 16px;
+  color: #999;
+  line-height: 34px;
+}
+#borroing_info .borrow-people03 ul li span {
+  padding-left: 30px;
+  color: #09d;
+}
+#borroing_info .borrow-people03 ul li a {
+  font-size: 20px;
+  color: #09d;
+}
+#borroing_info .panel {
+  font-size: 16px;
+}
+#borroing_info .panel .panel-body td {
+  line-height: 30px;
+}
+#borroing_info .panel .panel-body .info {
+  color: #09d;
+  padding-left: 10px;
+  padding-right: 100px;
+}
+#borroing_info .panel .table {
+  padding: 10px;
+}
+#borrowing-apply form {
+  position: relative;
+}
+#borrowing-apply form .borrowing-form-right {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  width: 300px;
+  border: solid 1px #ddd;
+  box-shadow: 1px 1px 20px #ddd;
+  padding: 20px 30px;
+  border-radius: 3px;
+}
+#borrowing-recharge-title {
+  background: #F4F8FA;
+  border-left: solid 4px #09d;
+  padding: 20px;
+}
+#borrowing-recharge-title h3 {
+  color: #09d;
+}
+#borrowing-recharge-title span:nth-child(2) {
+  padding-right: 30px;
+}
+#userinfo .info-right .Idcard .Idcarditem,
+#real-name .info-right .Idcard .Idcarditem {
+  width: 160px;
+  height: 150px;
+  border: solid 1px #ddd;
+  margin-right: 10px;
+}
+#userinfo .info-right .Idcard .Idcarditem .btn-primary,
+#real-name .info-right .Idcard .Idcarditem .btn-primary {
+  margin: 5px;
+}
+#userinfo .info-right .Idcard .Idcarditem .Idcardimg,
+#real-name .info-right .Idcard .Idcarditem .Idcardimg {
+  width: 120px;
+  height: 100px;
+  border: solid 1px #ddd;
+  margin: 0 auto;
+}
+#userinfo .info-right .Idcard .Idcard-text,
+#real-name .info-right .Idcard .Idcard-text {
+  border: 0;
+  text-align: center;
+}
+#userinfo .info-right .Idcard .Idcard-text a,
+#real-name .info-right .Idcard .Idcard-text a {
+  display: block;
+  padding-top: 60px;
+}
+#recharge .recharge-content {
+  margin: 20px 0;
+}
+#recharge .recharge-content .recharge-border {
+  border: solid 1px #ddd;
+  border-top: 0;
+}
+#recharge .recharge-content .recharge-border .table {
+  font-size: 16px;
+}
+#recharge .recharge-content .recharge-border .table td {
+  line-height: 30px;
+}
+#recharge .recharge-content .recharge-border .table td .bank {
+  display: block;
+  width: 150px;
+  height: 30px;
+}
+#recharge .recharge-content .recharge-border .table td .bank01 {
+  background: url("../image/bank_list.png") -4px 2px no-repeat;
+}
+#recharge .recharge-content .recharge-border .table td .bank02 {
+  background: url("../image/bank_list.png") -4px -34px no-repeat;
+}
+#recharge .recharge-content .recharge-border .table td .bank03 {
+  background: url("../image/bank_list.png") -4px -70px no-repeat;
+}
+#recharge .recharge-content .recharge-border .trade dd {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
